@@ -1,4 +1,4 @@
-# Complete Git and GitHub Tutorial
+# Complete Git and GitHub Notes
 
 ## Table of Contents
 
@@ -116,7 +116,7 @@ git --version
 
 For example, you might see output like: `git version 2.39.3`
 
-The exact patch version (like 2.39.3 vs 2.43) is not critical as long as the major version (2) remains the same. Different patch versions work fine for this tutorial.
+The exact patch version (like 2.39.3 vs 2.43) is not critical as long as the major version (2) remains the same. Different patch versions work fine for this Notes.
 
 ---
 
