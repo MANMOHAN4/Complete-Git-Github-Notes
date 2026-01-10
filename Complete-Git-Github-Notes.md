@@ -2,29 +2,19 @@
 
 ## Table of Contents
 
-1. [Introduction and Course Overview](#introduction-and-course-overview)
-2. [Version Control System (VCS) Fundamentals](#version-control-system-vcs-fundamentals)
-3. [Understanding Source Control](#understanding-source-control)
-4. [Git Installation and Setup](#git-installation-and-setup)
-5. [Git Command Line Interface (CLI) Basics](#git-command-line-interface-cli-basics)
-6. [Initializing a Git Repository](#initializing-a-git-repository)
-7. [Adding Files to Version Control](#adding-files-to-version-control)
-8. [Understanding Commits](#understanding-commits)
-9. [Staging Area](#staging-area)
-10. [Viewing Commit History](#viewing-commit-history)
-11. [Reverting Changes](#reverting-changes)
-12. [Collaboration with Git](#collaboration-with-git)
-13. [Git Remote and Remote Repositories](#git-remote-and-remote-repositories)
-14. [Branching](#branching)
-15. [Assignments](#assignments)
-
----
-
-## Introduction and Course Overview
-
-This is a comprehensive crash course on Git and GitHub. This tutorial covers everything from basic concepts to intermediate level understanding of Git and GitHub. By the end of this course, you will understand what Git is, what GitHub is, what version control systems are, and how to use Git for managing your version control system.
-
-The course covers fundamental concepts including version control systems, source control, Git basics, branching, staging areas, commits management, merging, reverting commits, collaboration, and much more.
+1. [Version Control System (VCS) Fundamentals](#version-control-system-vcs-fundamentals)
+2. [Understanding Source Control](#understanding-source-control)
+3. [Git Installation and Setup](#git-installation-and-setup)
+4. [Git Command Line Interface (CLI) Basics](#git-command-line-interface-cli-basics)
+5. [Initializing a Git Repository](#initializing-a-git-repository)
+6. [Adding Files to Version Control](#adding-files-to-version-control)
+7. [Understanding Commits](#understanding-commits)
+8. [Staging Area](#staging-area)
+9. [Viewing Commit History](#viewing-commit-history)
+10. [Reverting Changes](#reverting-changes)
+11. [Collaboration with Git](#collaboration-with-git)
+12. [Git Remote and Remote Repositories](#git-remote-and-remote-repositories)
+13. [Branching](#branching)
 
 ---
 
@@ -915,82 +905,3 @@ Once a branch is merged and no longer needed:
 ```bash
 git branch -d branch-name
 ```
-
----
-
-## Assignments
-
-To solidify your understanding of Git, complete the following hands-on assignments:
-
-### Assignment 1: Basic Repository Setup
-
-1. Create a new folder for a test project
-2. Initialize it as a Git repository using `git init`
-3. Create several files (JavaScript, Python, or any language you prefer) with simple code
-4. Make changes to different files at different times
-5. Create at least 8-10 commits with meaningful commit messages
-6. Practice `git log` and `git log --oneline` to view your commit history
-
-### Assignment 2: Understanding the Staging Area
-
-1. Create a new file and modify an existing file
-2. Use `git status` to see the current state
-3. Stage only one of the files using `git add filename`
-4. Commit only the staged changes
-5. Verify that the unstaged file is still modified but not committed
-6. Practice switching between adding all files and adding individual files
-
-### Assignment 3: Version Control Visualization
-
-1. Install the Git Graph extension in VS Code (recommended: "Git Graph by mhutchie")
-2. Create several commits in your repository
-3. Open the Git Graph view to visualize your commit history
-4. Understand how commits are represented in the graph
-5. Navigate through different commits to see the evolution of your code
-
-### Assignment 4: Commit History Navigation
-
-1. Use `git show <commit-sha>` to examine specific commits
-2. Identify which files were changed in each commit
-3. Use `git blame` on one of your files to see which commits introduced each line
-4. Practice using abbreviated commit SHAs (first 7 characters)
-5. Understand the metadata associated with each commit
-
-### Assignment 5: Reverting Changes
-
-1. Create a commit with intentional changes
-2. Create another commit on top of that
-3. Use `git revert` to undo one of the commits
-4. Observe how the revert creates a new commit rather than removing history
-5. Verify that the reverted changes are undone while maintaining commit history
-
-### Assignment 6: Branching Practice
-
-1. Create multiple feature branches from your main branch
-2. Switch between different branches and make commits in each
-3. Use `git log` to see different histories in different branches
-4. Merge a feature branch back to main using both:
-   - Squash merge (combining all commits into one)
-   - Regular merge (preserving all commits)
-5. Delete the merged branches
-
-### Assignment 7: Git Visualization Tools
-
-1. Use `git log --graph --oneline --all` to visualize your branch history in the terminal
-2. Experiment with the Git Graph extension to see visual representations
-3. Create branches, make commits, and observe how the graph evolves
-4. Practice understanding the visual representation of your repository structure
-
-### Key Takeaways
-
-Through these assignments, you will gain practical experience with:
-
-- Initializing and managing Git repositories
-- Creating and organizing commits effectively
-- Using the staging area strategically
-- Understanding commit history and navigation
-- Reversing and undoing changes safely
-- Working with branches for feature development
-- Visualizing repository structure and history
-
-Remember that the best way to learn Git is through hands-on practice. Start with basic operations and gradually work your way toward more complex scenarios involving multiple branches and merges.
