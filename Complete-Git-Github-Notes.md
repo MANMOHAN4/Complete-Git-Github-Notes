@@ -34,7 +34,7 @@ const a = 24;
 
 Over time, as you work on larger projects, your code undergoes many changes. You might add features, refactor code, and make various modifications:
 
-- One developer might add: `const name = "Piyush"`
+- One developer might add: `const name = "Manmohan"`
 - Another developer might create a function: `function getName() { return name; }`
 
 Without a version control system, it becomes very difficult to track:
@@ -49,7 +49,7 @@ Without a version control system, it becomes very difficult to track:
 With a Version Control System, you can create a timeline of your code's evolution. For example:
 
 1. **Initial State**: `const a = 24`
-2. **After first change**: Added `const name = "Piyush"`
+2. **After first change**: Added `const name = "Manmohan"`
 3. **After second change**: Added `function getName() { return name; }`
 
 Each of these states represents a snapshot of your code. VCS allows you to:
@@ -139,7 +139,7 @@ git config --global user.name "Your Name"
 For example:
 
 ```bash
-git config --global user.name "Piyush Garg"
+git config --global user.name "Manmohan Garg"
 ```
 
 #### Setting Your Email
@@ -172,7 +172,7 @@ For example, if you add this line of code:
 const dateOfBirth = "01-01-2000";
 ```
 
-Git will record that this line was added by "Piyush Garg" with the email "piyush@example.com" at a specific time. This is why proper configuration is essential.
+Git will record that this line was added by "Manmohan Garg" with the email "Manmohan@example.com" at a specific time. This is why proper configuration is essential.
 
 ### Optional Configuration
 
@@ -318,7 +318,7 @@ git rm filename.js
 A commit is a snapshot of your project at a specific point in time. It captures the state of all tracked files at that moment. Think of commits as points in your project's timeline:
 
 - **Commit 1**: Initial code state - `const a = 24`
-- **Commit 2**: After adding a variable - `const name = "Piyush"` added
+- **Commit 2**: After adding a variable - `const name = "Manmohan"` added
 - **Commit 3**: After adding a function - `function getName() { return name; }` added
 
 Each commit serves as a checkpoint in your project's history.
@@ -716,7 +716,7 @@ git remote add origin https://github.com/username/repo-name.git
 For example:
 
 ```bash
-git remote add origin git@github.com:piyush-garg/git-crash-course.git
+git remote add origin git@github.com:Manmohan-garg/git-crash-course.git
 ```
 
 ### Listing Remotes
@@ -738,8 +738,8 @@ git remote -v
 Output will show:
 
 ```
-origin  git@github.com:piyush-garg/git-crash-course.git (fetch)
-origin  git@github.com:piyush-garg/git-crash-course.git (push)
+origin  git@github.com:Manmohan-garg/git-crash-course.git (fetch)
+origin  git@github.com:Manmohan-garg/git-crash-course.git (push)
 ```
 
 ### Pushing to Remote
